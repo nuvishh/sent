@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 import requests
 
-url = 'http://localhost:5000/clas'
-r = requests.post(url,json={'text':'മോശം'})
-
-print(r.json())
+url = 'http://127.0.0.1:5000/'
+string = "മോശം"
+r = requests.get(url)
+print(r)
