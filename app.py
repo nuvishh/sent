@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 import sys
 from flask import Flask, request, jsonify, render_template
 
-model=pickle.load(open('model/clf.pickle','rb'))
+model=pickle.load(open('clf.pickle','rb'))
 
 app = flask.Flask(__name__, template_folder='templates')
 

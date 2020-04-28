@@ -7,7 +7,7 @@
 </head>
 <body>
 		<h1 align=center>SentAPI</h1>
-		<form action='/clas' method="post">
+		<form action='{{ url_for('clas')}}' method="post">
 			<label for="first_name"><b>Enter the text</b></label>
 			<input placeholder="For eg: മോശം സിനിമ " name="Temperature" id="te" type="text" class="validate">
 			<button type="submit" >Classify Text</button>
